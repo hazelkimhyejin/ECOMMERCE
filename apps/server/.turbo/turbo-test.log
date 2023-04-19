@@ -1,0 +1,10 @@
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+
+> server@1.0.0 test
+> echo "Error: no test specified" && exit 1
+
+"Error: no test specified" 
+npm ERR! Lifecycle script `test` failed with error: 
+npm ERR! Error: command failed 
+npm ERR!   in workspace: server@1.0.0 
+npm ERR!   at location: D:\Dev\group-buy\apps\server 

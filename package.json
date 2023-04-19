@@ -1,0 +1,30 @@
+{
+  "name": "group-buy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "turbo run test",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "cd apps/server && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berwyntan/group-buy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berwyntan/group-buy/issues"
+  },
+  "homepage": "https://github.com/berwyntan/group-buy#readme",
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
